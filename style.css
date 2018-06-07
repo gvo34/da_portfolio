@@ -32,7 +32,7 @@ ion-icon {
   margin:5px;
   border-style:solid;
   color:#5c5948da;
-  background: #eee;
+  background: rgba(238, 238, 238, 0.829);
   text-align:center;
   width:30vw;
   height: 20vh;
@@ -76,6 +76,11 @@ a {
 .list-group-item {
     float: left;
     align: center;
+    border-color:rgb(230, 173, 230);
+    margin:5px;
+    border-style:solid;
+    background: rgba(238, 238, 238, 0.829);
+
 }
 
 /* Selecting elements by ID */
