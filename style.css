@@ -9,8 +9,12 @@ body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 150%;
-  color: rgb(51, 51, 51);
-  background: #efeee7;
+  color: rgba(239, 245, 247, 0.945);
+  background: #5c5948da;
+  /*background-image: url(valley.jpg);
+  background-attachment: fixed;
+  background-position: 50% 50%;
+*/
 }
 
 header {
@@ -23,26 +27,30 @@ ion-icon {
   font-size: 24px;
 }
 
-h1 {
-  padding: 15px 0;
-  margin: 0;
-  margin-bottom: 25px;
-  font-family: cursive;
-  font-size: 28px;
-  color: #eee;
-  text-align: center;
+.card {
+  border-color:rgb(230, 173, 230);
+  margin:5px;
+  border-style:solid;
+  color:#5c5948da;
+  background: #eee;
+  text-align:center;
+  width:30vw;
+  height: 25vh;
+  float:left;
 }
 
-h2 {
-  font-size: 18px;
+
+h1 {
+  font-family: cursive;
+  font-size: 48px;
+  color: #eee;
 }
 
 h3 {
-  font-size: 16px;
   font-family: "Lucida Console", Courier, monospace;
-  color: rgb(51, 51, 51);
-  text-align: center;
+  
 }
+
 a {
   color: #d68d63;
 }
@@ -54,11 +62,20 @@ a {
   align-content:  stretch;
 }
 
+.ul.list-group:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.list-group-item {
+    float: left;
+}
 /* Selecting elements by ID */
 #main-bio,
 #contact-info,
 #bio-image {
-  float: left;
+  float: right;
 }
 
 #figure {
@@ -66,9 +83,7 @@ a {
 }
 
 #bio-name {
-  position: absolute;
-  top: 200px;
-  left: 100px;
+  
   color: whitesmoke;
 }
 
@@ -78,3 +93,10 @@ a {
   height: 250px;
   margin-right: 20px;
 }
+
+
+#summary {
+  color: grey;
+  text-align: center;
+}
+
