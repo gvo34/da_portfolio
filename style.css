@@ -7,7 +7,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 1.5vmin;
   line-height: 150%;
   color: rgba(239, 245, 247, 0.945);
   background: #5c5948da;
@@ -37,6 +37,11 @@ ion-icon {
   width:30vw;
   height: 25vh;
   float:left;
+  transition-duration: 0.5s;
+}
+
+.card:hover{
+  transform: scale(1.1);
 }
 
 
