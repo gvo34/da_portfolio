@@ -23,29 +23,6 @@ header {
   font-size: 16px;
 }
 
-ion-icon {
-  font-size: 24px;
-}
-
-.card {
-  border-color:rgb(230, 173, 230);
-  margin:5px;
-  border-style:solid;
-  color:#5c5948da;
-  background: rgba(238, 238, 238, 0.829);
-  text-align:center;
-  width:30vw;
-  height: 20vh;
-  float:left;
-  transition-duration: 0.5s;
-}
-
-.card:hover{
-  transform: scale(1.1);
-  z-index: 5;
-}
-
-
 h1 {
   font-family: cursive;
   font-size: 48px;
@@ -61,7 +38,39 @@ a {
   color: #d68d63;
 }
 
+ion-icon {
+  font-size: 24px;
+}
+
+
 /* Selecting elements by class */
+.card {
+  border-color:rgb(230, 173, 230);
+  margin:5px;
+  border-style:solid;
+  color:#5c5948da;
+  background: rgba(238, 238, 238, 0.829);
+  text-align:center;
+  width:30vw;
+  height: 20vh;
+  float:left;
+  transition-duration: 0.5s;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+.badge-secondary{
+  background-color: rgba(238, 238, 238, 0.829);
+  color: #5c5948da;
+}
+
+.badge-secondary:hover{
+  color: rgb(230, 173, 230);
+}
+
 .container {
   margin: 0 auto;
   align-content:  stretch;
