@@ -38,6 +38,13 @@ a {
   color: #d68d63;
 }
 
+img{
+  display:block;
+  width:50%;
+  margin:auto;
+  margin-top:5px;
+}
+
 ion-icon {
   font-size: 24px;
 }
