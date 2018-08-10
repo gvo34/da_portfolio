@@ -10,7 +10,7 @@ body {
   font-size: 1.2vmin;
   line-height: 150%;
   color:#5c5948da;
-  background:whitesmoke;
+  background:#ffffff ;
   /*background-image: url(valley.jpg);
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -49,6 +49,9 @@ ion-icon {
   font-size: 24px;
 }
 
+.dropdown-item{
+  color: #f9fbe7;
+}
 
 /* Selecting elements by class */
 .card {
@@ -56,7 +59,7 @@ ion-icon {
   margin:5px;
   border-style:double;
   color:#5c5948da;
-  background: rgba(238, 238, 238, 0.829);
+  background:#efebe9;
   text-align:center;
   width:30vw;
   height: 40vh;
@@ -76,7 +79,7 @@ ion-icon {
 }
 
 .badge-secondary:hover{
-  color: rgb(230, 173, 230);
+  color:#ffecb3;
 }
 
 .container {
@@ -98,6 +101,10 @@ ion-icon {
     border-style:solid;
     background: rgba(238, 238, 238, 0.829);
 
+}
+
+.navbar{
+  background-color:#bdb9b7;
 }
 
 /* Selecting elements by ID */
