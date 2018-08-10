@@ -112,7 +112,7 @@ ion-icon {
 /* Selecting elements by ID */
 #main-bio,
 #contact-info{
-  float: right;
+  margin-left:20px;
 }
 
 
