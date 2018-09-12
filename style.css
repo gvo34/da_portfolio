@@ -28,6 +28,7 @@ h1 {
   font-size: 48px;
   margin-left:20px;
   /*color: #eee;*/
+  color: #4b4039;
 }
 
 h3 {
@@ -37,7 +38,8 @@ h3 {
 }
 
 a {
-  color: #d68d63;
+  /*color: #d68d63;*/
+  color: #4b4039;
 }
 
 img{
@@ -117,7 +119,8 @@ ion-icon {
 
 
 #bio-name {  
-  color: #d68d63;
+  /*color: #d68d63;*/
+  color: #4b4039;
 }
 
 
