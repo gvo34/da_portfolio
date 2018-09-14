@@ -9,37 +9,30 @@ body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 1.5vmin;
   line-height: 150%;
-  /*color:#5c5948da;
-  background:#ffffff ;
-  background-image: url(valley.jpg);
-  background-attachment: fixed;
-  background-position: 50% 50%;
-*/
 }
 
 header {
-  background: rgb(32, 30, 30);
-  font-family: "Lucida Console", Courier, monospace;
+
   font-size: 16px;
 }
 
 h1 {
-  font-family: cursive;
+
   font-size: 48px;
   margin-left:20px;
-  /*color: #eee;*/
-  color: #4b4039;
+  color: #eee;
+  
 }
 
 h3 {
-  font-family: "Lucida Console", Courier, monospace;
+
   float:left;
   margin-left:10px;
 }
 
 a {
   /*color: #d68d63;*/
-  color: #4b4039;
+  color: #4fa3c4fd;
 }
 
 img{
@@ -62,8 +55,8 @@ ion-icon {
   border-color:lightslategrey;
   margin:5px;
   border-style:double;
-  color:#5c5948da;
-  background:#efebe9;
+  color:#4b535fda;
+  background:#f3f5f7;
   text-align:center;
   width:30vw;
   height: 40vh;
@@ -77,9 +70,9 @@ ion-icon {
 }
 
 .badge-secondary{
-  background-color: rgba(238, 238, 238, 0.829);
+  background-color: rgba(25, 166, 201, 0.829);
   /*color: #5c5948da;*/
-  color: #d68d63;
+  color: #dce5eb;
 }
 
 .badge-secondary:hover{
@@ -108,7 +101,8 @@ ion-icon {
 }
 
 .navbar{
-  background-color:#bdb9b7;
+  color:white;
+  background-color:#59aed8;
 }
 
 /* Selecting elements by ID */
@@ -120,7 +114,8 @@ ion-icon {
 
 #bio-name {  
   /*color: #d68d63;*/
-  color: #4b4039;
+  
+  color:#52a0be;
 }
 
 
