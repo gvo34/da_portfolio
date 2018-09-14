@@ -37,7 +37,7 @@ a {
 
 img{
   display:block;
-  width:50%;
+  width:75%;
   margin:auto;
   margin-top:5px;
 }
@@ -65,15 +65,35 @@ ion-icon {
   background:#f3f5f7;
   text-align:center;
   width:30vw;
-  height: 40vh;
+  height: 35vh;
   float:right;
   transition-duration: 0.5s;
 }
 
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  color:#d4ddebda;
+}
+
+
 .card:hover{
-  transform: scale(1.05);
+  transform: scale(1.01);
   z-index: 2;
 }
+
+.card:hover .overlay{
+  opacity: 0.9;
+} 
 
 
 
@@ -131,3 +151,5 @@ ion-icon {
 #contact-info{
   margin:20px;
 }
+
+
