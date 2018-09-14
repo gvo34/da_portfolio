@@ -42,6 +42,12 @@ img{
   margin-top:5px;
 }
 
+hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
 ion-icon {
   font-size: 20px;
 }
@@ -53,14 +59,14 @@ ion-icon {
 /* Selecting elements by class */
 .card {
   border-color:lightslategrey;
-  margin:5px;
+  margin:15px;
   border-style:double;
   color:#4b535fda;
   background:#f3f5f7;
   text-align:center;
   width:30vw;
   height: 40vh;
-  float:left;
+  float:right;
   transition-duration: 0.5s;
 }
 
@@ -68,6 +74,8 @@ ion-icon {
   transform: scale(1.05);
   z-index: 2;
 }
+
+
 
 .badge-secondary{
   background-color: rgba(25, 166, 201, 0.829);
@@ -106,9 +114,9 @@ ion-icon {
 }
 
 /* Selecting elements by ID */
-#main-bio,
-#contact-info{
-  margin-left:20px;
+#main-bio
+{
+  margin-left:10px;
 }
 
 
@@ -118,4 +126,8 @@ ion-icon {
   color:#52a0be;
 }
 
-
+#about,
+#projects,
+#contact-info{
+  margin:20px;
+}
