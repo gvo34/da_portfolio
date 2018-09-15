@@ -32,7 +32,7 @@ h3 {
 
 a {
   /*color: #d68d63;*/
-  color: #4fa3c4fd;
+  color: #7fc1ebee;
 }
 
 img{
@@ -69,8 +69,7 @@ ion-icon {
   float:right;
   transition-duration: 0.5s;
 }
-
-
+/*
 .overlay {
   position: absolute;
   top: 0;
@@ -86,15 +85,15 @@ ion-icon {
 }
 
 
-.card:hover{
+.card-body:hover{
   transform: scale(1.01);
   z-index: 2;
 }
 
-.card:hover .overlay{
+.card-body:hover .overlay{
   opacity: 0.9;
 } 
-
+*/
 
 
 .badge-secondary{
