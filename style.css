@@ -37,7 +37,7 @@ a {
 
 img{
   display:block;
-  width:75%;
+  width:90%;
   margin:auto;
   margin-top:5px;
 }
@@ -65,7 +65,7 @@ ion-icon {
   background:#f3f5f7;
   text-align:center;
   width:30vw;
-  height: 35vh;
+  height: 45vh;
   float:right;
   transition-duration: 0.5s;
 }
