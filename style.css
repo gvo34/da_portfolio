@@ -64,8 +64,8 @@ ion-icon {
   color:#4b535fda;
   background:#f3f5f7;
   text-align:center;
-  width:30rem; /*vw;
-  height: 50vh;*/
+  width:30rem; /*vw;*/
+  height: 30rem;
   float:right;
   transition-duration: 0.5s;
 }
